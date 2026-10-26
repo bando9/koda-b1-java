@@ -32,5 +32,7 @@ public class App
         ebook.showInfo();
 
         cabai.addStock(50);
+
+        cabai.addStock(-10);
     }
 }

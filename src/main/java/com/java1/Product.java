@@ -24,9 +24,10 @@ public class Product {
         System.out.println("\n"+ name + "\ncurrent stock: " + stock);
         if(num <= 0){
             System.out.println("gabisa nambah stock dibawah 0 dong !");
+        } else{
+            stock += num;
         }
         
-        stock += num;
 
         System.out.println("next stock: " + stock);
     }
