@@ -8,6 +8,7 @@ public class App
         System.out.println("\tKODA ENTERPRISE");
         System.out.println("==================================================");
         
+        // Dependency Injection
         Employee andi = new Employee("EMP001", "Andi Pratama", "Backend Developer", "IT", 5000000);
         
         EmployeeService andiService = new EmployeeService(andi);
