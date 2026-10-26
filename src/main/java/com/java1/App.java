@@ -19,5 +19,18 @@ public class App
         
         andiService.giveRaise(-500000);
 
+
+        System.out.println();
+        System.out.println();
+
+        PhysicalProduct cabai = new PhysicalProduct("C001", "Cabai 1kg", 25000, 50);
+        
+        DigitalProduct ebook = new DigitalProduct("E001", "Ebook", 35000);
+
+        cabai.showInfo();
+        
+        ebook.showInfo();
+
+        cabai.addStock(50);
     }
 }
